@@ -1,0 +1,81 @@
+---
+const title = "Saliaku - Blog";
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title> 
+    <!-- curly brackets are used to make use of javascript code insite the html part -->
+    <!-- title written using js at the top of the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4b0082;
+            text-align: center;
+        }
+        article {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4b0082;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4b0082;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <a href=''>Home</a>
+   	<a href=about>About</a>
+    <a href=blog>Blog</a>
+
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2><a href=posts/post-1>Created this website finally.... </a></h2>
+            <p>This was in my mind for about 3-4 months now, but ye here we are finally.. making it possible i g... </p>
+        </article>
+
+        <!-- Add more blog posts here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Saliaku. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
